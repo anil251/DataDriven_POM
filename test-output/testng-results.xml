@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82811" started-at="2020-12-04T10:00:05Z" finished-at="2020-12-04T10:01:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82811" started-at="2020-12-04T10:00:05Z" finished-at="2020-12-04T10:01:28Z">
+      <class name="com.DataDriven_POM.TestScripts.Contacts">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.DataDriven_POM.TestScripts.Contacts@79ca92b9]" name="openbrowser" is-config="true" duration-ms="11409" started-at="2020-12-04T15:29:54Z" finished-at="2020-12-04T15:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="Reports()[pri:0, instance:com.DataDriven_POM.TestScripts.Contacts@79ca92b9]" name="Reports" is-config="true" duration-ms="731" started-at="2020-12-04T15:30:05Z" finished-at="2020-12-04T15:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports -->
+        <test-method status="PASS" signature="BeforeTcExecution(java.lang.reflect.Method)[pri:0, instance:com.DataDriven_POM.TestScripts.Contacts@79ca92b9]" name="BeforeTcExecution" is-config="true" duration-ms="3" started-at="2020-12-04T15:30:06Z" finished-at="2020-12-04T15:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.DataDriven_POM.TestScripts.Contacts.contact()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTcExecution -->
+        <test-method status="PASS" signature="contact()[pri:0, instance:com.DataDriven_POM.TestScripts.Contacts@79ca92b9]" name="contact" duration-ms="78249" started-at="2020-12-04T15:30:06Z" finished-at="2020-12-04T15:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method status="PASS" signature="AfterTCExcution(org.testng.ITestResult)[pri:0, instance:com.DataDriven_POM.TestScripts.Contacts@79ca92b9]" name="AfterTCExcution" is-config="true" duration-ms="3641" started-at="2020-12-04T15:31:24Z" finished-at="2020-12-04T15:31:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contact status=SUCCESS method=Contacts.contact()[pri:0, instance:com.DataDriven_POM.TestScripts.Contacts@79ca92b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTCExcution -->
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.DataDriven_POM.TestScripts.Contacts@79ca92b9]" name="generateReports" is-config="true" duration-ms="168" started-at="2020-12-04T15:31:28Z" finished-at="2020-12-04T15:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DataDriven_POM.TestScripts.Contacts@79ca92b9]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-12-04T15:31:28Z" finished-at="2020-12-04T15:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DataDriven_POM.TestScripts.Contacts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

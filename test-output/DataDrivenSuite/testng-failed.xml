@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DataDrivenSuite]" parallel="none">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.DataDriven_POM.TestScripts.Contacts"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.DataDriven_POM.TestScripts.Contacts">
+        <methods>
+          <include name="BeforeTcExecution"/>
+          <include name="tearDown"/>
+          <include name="openbrowser"/>
+          <include name="contact"/>
+          <include name="Reports"/>
+          <include name="generateReports"/>
+          <include name="AfterTCExcution"/>
+        </methods>
+      </class> <!-- com.DataDriven_POM.TestScripts.Contacts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [DataDrivenSuite] -->
